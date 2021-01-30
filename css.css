@@ -1,0 +1,22 @@
+#range {
+    width: 400px;
+    height: 15px;
+    margin-bottom: 20px;
+    color: black;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: -14px;
+    box-shadow: 1px 1px 1px #000000, 0px 0px 1px #0d0d0d;
+    padding: 10px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+
+    
+}
+
+
+#userNumber {
+    width: 50px;
+}

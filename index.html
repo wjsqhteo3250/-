@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ranmdome Number Game</h1>
+    <h2 id = "title">Generate a number between 0 to 100</h2>
+    <input type="range" id="range" min="0" max="200" value ="50%" step="1" list="marker">
+    <datalist id = "marker">
+        <option value="0"></option>
+        <option value="20"></option>
+        <option value="40"></option>
+        <option value="60"></option>
+        <option value="80"></option>
+        <option value="100"></option>
+        <option value="120"></option>
+        <option value="140"></option>
+        <option value="160"></option>
+        <option value="180"></option>
+        <option value="200"></option>
+    </datalist>
+    <form action="">
+        <label for="quantity">Guess the number:</label>
+        <input type="number" id="userNumber" name="quantity">
+        <input type="submit" id="play" value="play!">
+    </form>
+    <p id="measure"></p>
+    <p id="result"></p>
+    <script src="js.js"></script>
+</body>
+</html>
